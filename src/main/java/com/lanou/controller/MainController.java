@@ -70,7 +70,11 @@ public class MainController {
 		return "ccc";
 	}
 
-	// deve_1_1
+    public String deve3Test(){
+        System.out.println("11111");
+
+        return "ccc";
+    }
 
     // 测试信息
     public String deve11Test(){
