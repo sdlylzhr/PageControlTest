@@ -45,6 +45,42 @@ public class MainController {
 		return "bbb";
 	}
 
+	public void test(){
+
+		System.out.println(1111);
+	}
+
+	// 编辑代码
+	@RequestMapping(value = "/branch")
+	@ResponseBody
+	public String branchTest(){
+
+		return "branch";
+	}
+
+	public String deve1Test1(){
+
+		return "bbb";
+	}
+
+    // 新
+	public String deve1Test(){
+        System.out.println("2222");
+
+		return "ccc";
+	}
+
+    public String deve3Test(){
+        System.out.println("11111");
+
+        return "ccc";
+    }
+
+    // 测试信息
+    public String deve11Test(){
+        System.out.println("2222");
+        return "ccc";
+    }
 
 }
 
