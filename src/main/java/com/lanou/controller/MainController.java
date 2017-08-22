@@ -16,9 +16,7 @@ import java.util.Map;
 
 @Controller
 public class MainController {
-	
-	// 使用spring的依赖注入(DI)
-	// 可以使用Resource和Autowired注解
+
 @Resource
 	private MessageService messageService;
 	
@@ -40,6 +38,13 @@ public class MainController {
 	public PageInfo<Message> pagetest(){
 		return messageService.queryPage(1, 2);
 	}
+
+	@RequestMapping(value = "/test")
+	@ResponseBody
+	public String gittest(){
+		return "bbb";
+	}
+
 
 }
 
