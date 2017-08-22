@@ -72,6 +72,12 @@ public class MainController {
 
 	// deve_1_1
 
+    // 测试信息
+    public String deve11Test(){
+        System.out.println("2222");
+        return "ccc";
+    }
+
 }
 
 
