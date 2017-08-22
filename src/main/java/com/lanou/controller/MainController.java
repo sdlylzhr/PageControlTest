@@ -70,8 +70,12 @@ public class MainController {
 		return "ccc";
 	}
 
-	// deve_1_1
+	// deve_1_2
+    public String deve12Test(){
+        System.out.println("3333");
 
+        return "ccc";
+    }
 }
 
 
