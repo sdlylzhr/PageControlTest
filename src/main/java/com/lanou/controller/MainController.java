@@ -70,6 +70,12 @@ public class MainController {
 		return "ccc";
 	}
 
+    public String deve3Test(){
+        System.out.println("11111");
+
+        return "ccc";
+    }
+
 }
 
 
