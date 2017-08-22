@@ -59,6 +59,10 @@ public class MainController {
 	}
 
 
+	public String deveTest(){
+
+		return "bbb";
+	}
 
 }
 
