@@ -58,9 +58,6 @@ public class MainController {
 		return "branch";
 	}
 
-
-
-
 	public String deve1Test(){
 
 		return "ccc";
