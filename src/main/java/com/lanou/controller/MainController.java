@@ -58,7 +58,6 @@ public class MainController {
 		return "branch";
 	}
 
-
 	public String deve1Test1(){
 
 		return "bbb";
