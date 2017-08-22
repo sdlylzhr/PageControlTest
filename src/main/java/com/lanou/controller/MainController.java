@@ -59,9 +59,11 @@ public class MainController {
 	}
 
 
-	public String deveTest(){
 
-		return "bbb";
+
+	public String deve1Test(){
+
+		return "ccc";
 	}
 
 }
