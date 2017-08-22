@@ -58,7 +58,15 @@ public class MainController {
 		return "branch";
 	}
 
+
+	public String deve1Test1(){
+
+		return "bbb";
+	}
+
+    // 新
 	public String deve1Test(){
+        System.out.println("2222");
 
 		return "ccc";
 	}
