@@ -59,6 +59,11 @@ public class MainController {
 	}
 
 
+	public String deve1Test1(){
+
+		System.out.println("2222");
+		return "bbb";
+	}
 
 
 	public String deve1Test(){
